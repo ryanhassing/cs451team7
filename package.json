@@ -1,0 +1,23 @@
+{
+  "name": "team-7-checkers",
+  "version": "1.0.0",
+  "description": "Checkers application for CS451",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron": "~1.7.8",
+    "electron-reload": "^1.2.2",
+    "standard": "^11.0.0"
+  },
+  "dependencies": {
+    "bson": "^2.0.2",
+    "electron-fetch": "^1.1.0",
+    "gson": "^0.1.5",
+    "ws": "^5.0.0"
+  },
+  "author": ""
+}

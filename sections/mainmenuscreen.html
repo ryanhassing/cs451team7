@@ -1,0 +1,37 @@
+<template class="section-template">
+    <section id="mainmenuscreen" class="wrapper">
+        
+            <div id="modal-screen" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                        
+                    <div class="aligner">
+                    
+                    <p class="newh2">Enter an IP:</p>
+                    <input type="text" id="fname" value="" maxlength="15" minlength="0">
+
+                    <br>
+                    <div class="actions">
+                      
+                        <button id="cancel-join" class="buttongame" >Cancel</button>
+                        <button disabled data-section="maingamescreen" id="playtemp" class="buttongame" >Play!</button>           
+                    </div>
+                    </div>
+                </div>
+                
+                </div>
+ 
+            <div class="menu-aligner">
+                    <p class="t7c-title">Team 7 Checkers</p>
+                    
+                <button data-section="maingamescreen"class="menu-button">Play Checkers!</button> 
+                <button data-section="rulesscreen" class="menu-button">Rules</button>  
+                <button id="join" class="menu-button">Exit</button>
+            </div>
+    
+        <!-- <button id="welcome-menu" data-section="joinscreen" href="#">joinscreen</button>
+        <button data-section="maingamescreen" href="#">maingamescreen</button>
+        <button data-section="rulesscreen" href="#">rulesscreen</button> -->
+    </section>
+</template>
